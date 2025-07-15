@@ -9,7 +9,7 @@
 }
 
 .calculator {
-  background: #000;
+  background: #212121;
   padding: 20px;
   border-radius: 10px;
   display: flex;
@@ -19,11 +19,20 @@
 }
 
 .display {
+  background: rgba(0, 0, 0, 0.8);
   color: white;
-  font-size: 2.5em;
+  font-size: 2.5rem;
+  font-weight: 300;
   text-align: right;
-  padding: 10px;
-  background: black;
+  padding: 20px;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .buttons {
@@ -49,7 +58,7 @@
   color: #fff;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 8px #999;
 }
 
 .button:active {
@@ -72,7 +81,7 @@
 }
 
 .zero {
-  flex: 2.1;
+  flex: 1.8;
   border-radius: 15px;
   text-align: left;
   padding-left: 25px;
