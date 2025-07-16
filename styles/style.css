@@ -58,19 +58,32 @@
   color: #fff;
   border: none;
   border-radius: 50%;
+  transition-duration: 0.4s;
 }
 
 .gray {
-  background: #a6a6a6;
+  background: hsl(0, 0%, 65%);
   color: black;
 }
 
+.gray:active {
+  background: hsl(0, 0%, 75%);
+}
+
 .dark {
-  background: #333333;
+  background: hsl(0, 0%, 20%);
+}
+
+.dark:active {
+  background: hsl(0, 0%, 30%);
 }
 
 .orange {
-  background: #ff9f0a;
+  background: hsl(36, 100%, 52%);
+}
+
+.orange:active {
+  background: hsl(36, 100%, 62%);
 }
 
 .zero {
